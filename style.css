@@ -1,8 +1,8 @@
-.body{
-    background-color: #0001af;
+body{
+    background-color: #18191a;
 }
 
-.container{
+.container1{
 
     margin: 100px 0 0 200px;
     width: 70%;
@@ -10,4 +10,17 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+
+.container1 img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.6);
+    transition: all ease-in-out 0.5s;
+}
+
+.container1 img:hover{
+    width: 25%;
 }
